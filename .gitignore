@@ -1,0 +1,57 @@
+# Ignore build outputs
+/target/
+/build/
+/out/
+*.class
+
+# Maven wrapper: keep wrapper files versioned (do NOT ignore .mvn/wrapper/maven-wrapper.jar)
+# .mvn/wrapper/maven-wrapper.jar should be committed with the project
+
+# IDE files (user-specific)
+/.idea/
+*.iml
+*.iws
+*.ipr
+/.vscode/
+
+# Eclipse/STS
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Gradle
+/.gradle/
+.gradle/
+# Keep gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive or local configuration
+*.keystore
+*.jks
+secrets.properties
+
+# Misc
+HELP.md
+/src/main/resources/META-INF/persistence.xml
